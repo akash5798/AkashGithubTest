@@ -18,6 +18,7 @@ class FirstViewController: UIViewController {
         //added this line directly on github with edit file option.
         // Feature 1
         // Feature 2
+        // fix for version 1.1
         // Feature 3
         // Feature 4
     }

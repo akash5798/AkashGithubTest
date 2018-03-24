@@ -21,6 +21,7 @@ class FirstViewController: UIViewController {
         // fix for version 1.1
         // Feature 3
         // Feature 4
+        // Feature 5
     }
 
     override func didReceiveMemoryWarning() {

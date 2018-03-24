@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2F2BD75F20660BBA00874ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD75E20660BBA00874ABA /* AppDelegate.swift */; };
-		2F2BD76120660BBA00874ABA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD76020660BBA00874ABA /* ViewController.swift */; };
 		2F2BD76420660BBA00874ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BD76220660BBA00874ABA /* Main.storyboard */; };
 		2F2BD76720660BBB00874ABA /* AkashGithubTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD76520660BBB00874ABA /* AkashGithubTest.xcdatamodeld */; };
 		2F2BD76920660BBB00874ABA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BD76820660BBB00874ABA /* Assets.xcassets */; };
 		2F2BD76C20660BBB00874ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BD76A20660BBB00874ABA /* LaunchScreen.storyboard */; };
 		2F2BD77720660BBB00874ABA /* AkashGithubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD77620660BBB00874ABA /* AkashGithubTestTests.swift */; };
+		2F2BD7822066106300874ABA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD7812066106300874ABA /* FirstViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,6 @@
 /* Begin PBXFileReference section */
 		2F2BD75B20660BBA00874ABA /* AkashGithubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkashGithubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2BD75E20660BBA00874ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2F2BD76020660BBA00874ABA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2F2BD76320660BBA00874ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2F2BD76620660BBB00874ABA /* AkashGithubTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AkashGithubTest.xcdatamodel; sourceTree = "<group>"; };
 		2F2BD76820660BBB00874ABA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +37,7 @@
 		2F2BD77220660BBB00874ABA /* AkashGithubTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AkashGithubTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2BD77620660BBB00874ABA /* AkashGithubTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkashGithubTestTests.swift; sourceTree = "<group>"; };
 		2F2BD77820660BBB00874ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F2BD7812066106300874ABA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2F2BD75E20660BBA00874ABA /* AppDelegate.swift */,
-				2F2BD76020660BBA00874ABA /* ViewController.swift */,
+				2F2BD7812066106300874ABA /* FirstViewController.swift */,
 				2F2BD76220660BBA00874ABA /* Main.storyboard */,
 				2F2BD76820660BBB00874ABA /* Assets.xcassets */,
 				2F2BD76A20660BBB00874ABA /* LaunchScreen.storyboard */,
@@ -204,7 +204,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F2BD76120660BBA00874ABA /* ViewController.swift in Sources */,
+				2F2BD7822066106300874ABA /* FirstViewController.swift in Sources */,
 				2F2BD75F20660BBA00874ABA /* AppDelegate.swift in Sources */,
 				2F2BD76720660BBB00874ABA /* AkashGithubTest.xcdatamodeld in Sources */,
 			);
@@ -414,6 +414,7 @@
 				2F2BD77D20660BBB00874ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2F2BD77E20660BBB00874ABA /* Build configuration list for PBXNativeTarget "AkashGithubTestTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +423,7 @@
 				2F2BD78020660BBB00874ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

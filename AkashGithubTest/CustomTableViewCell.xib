@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="76" id="KGk-i7-Jjw" customClass="CustomTableViewCell" customModule="AkashGithubTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="76"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="75"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AI-hN-mdQ">
+                        <rect key="frame" x="77" y="40" width="32" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="30" id="Ni4-ry-YAI"/>
+                            <constraint firstAttribute="width" constant="32" id="X42-W1-LXe"/>
+                        </constraints>
+                        <state key="normal" title="Stop"/>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Labeld" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ZM-Lc-Daz">
+                        <rect key="frame" x="15" y="7" width="297" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="JCw-Gj-yls"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FeV-m4-Ixg">
+                        <rect key="frame" x="18" y="37" width="284" height="2"/>
+                    </progressView>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dpb-OF-84T">
+                        <rect key="frame" x="15" y="40" width="42" height="30"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="42" id="XR5-fA-tMP"/>
+                            <constraint firstAttribute="height" constant="30" id="gRp-rs-dtl"/>
+                        </constraints>
+                        <state key="normal" title="Pause"/>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" red="0.93153211805555558" green="0.84597439236111116" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="5ZM-Lc-Daz" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="7" id="JXV-a2-QXv"/>
+                    <constraint firstItem="8AI-hN-mdQ" firstAttribute="leading" secondItem="Dpb-OF-84T" secondAttribute="trailing" constant="20" id="NRv-Wy-m91"/>
+                    <constraint firstItem="FeV-m4-Ixg" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="10" id="WJB-n8-wAa"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="FeV-m4-Ixg" secondAttribute="trailing" constant="10" id="Z6w-Wa-a5h"/>
+                    <constraint firstAttribute="bottom" secondItem="Dpb-OF-84T" secondAttribute="bottom" constant="5" id="aPq-Cx-oJa"/>
+                    <constraint firstItem="Dpb-OF-84T" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="g5l-XD-3KG"/>
+                    <constraint firstItem="5ZM-Lc-Daz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="gTO-y3-nCH"/>
+                    <constraint firstAttribute="trailing" secondItem="5ZM-Lc-Daz" secondAttribute="trailing" constant="8" id="qdG-P0-iSP"/>
+                    <constraint firstItem="FeV-m4-Ixg" firstAttribute="top" secondItem="5ZM-Lc-Daz" secondAttribute="bottom" constant="9" id="rbl-DS-oAL"/>
+                    <constraint firstAttribute="bottom" secondItem="8AI-hN-mdQ" secondAttribute="bottom" constant="5" id="srh-OP-nsO"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="btnPauseButton" destination="Dpb-OF-84T" id="9Nf-Ii-uhN"/>
+                <outlet property="btnStopButton" destination="8AI-hN-mdQ" id="I7f-Y8-8Oj"/>
+                <outlet property="lblTitleLabel" destination="5ZM-Lc-Daz" id="IwS-bt-0SA"/>
+                <outlet property="progressDownload" destination="FeV-m4-Ixg" id="TmL-kq-9ra"/>
+            </connections>
+            <point key="canvasLocation" x="26" y="68"/>
+        </tableViewCell>
+    </objects>
+</document>

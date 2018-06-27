@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F1ED3A26E471CCD51DC608B /* Pods_AkashGithubTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8237E68EC379AA31967A903C /* Pods_AkashGithubTest.framework */; };
 		2F2BD75F20660BBA00874ABA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD75E20660BBA00874ABA /* AppDelegate.swift */; };
 		2F2BD76420660BBA00874ABA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BD76220660BBA00874ABA /* Main.storyboard */; };
 		2F2BD76720660BBB00874ABA /* AkashGithubTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD76520660BBB00874ABA /* AkashGithubTest.xcdatamodeld */; };
@@ -14,6 +15,28 @@
 		2F2BD76C20660BBB00874ABA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2BD76A20660BBB00874ABA /* LaunchScreen.storyboard */; };
 		2F2BD77720660BBB00874ABA /* AkashGithubTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD77620660BBB00874ABA /* AkashGithubTestTests.swift */; };
 		2F2BD7822066106300874ABA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2BD7812066106300874ABA /* FirstViewController.swift */; };
+		2F68378E207F1778004BDDA0 /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F68378C207F1778004BDDA0 /* DownloadViewController.swift */; };
+		2F68378F207F1778004BDDA0 /* DownloadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F68378D207F1778004BDDA0 /* DownloadViewController.xib */; };
+		2F683791207F274A004BDDA0 /* DownloadTaskInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F683790207F274A004BDDA0 /* DownloadTaskInfo.swift */; };
+		2F683794207F3A0A004BDDA0 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F683792207F3A0A004BDDA0 /* CustomTableViewCell.swift */; };
+		2F683795207F3A0A004BDDA0 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F683793207F3A0A004BDDA0 /* CustomTableViewCell.xib */; };
+		2F6E12FE20807B4800F37D36 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F6E12FC20807B4800F37D36 /* SecondViewController.swift */; };
+		2F6E12FF20807B4800F37D36 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F6E12FD20807B4800F37D36 /* SecondViewController.xib */; };
+		2F788B0E2068F1DA00BD2599 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F788B0D2068F1DA00BD2599 /* ApiService.swift */; };
+		2F788B112068F21C00BD2599 /* ApiURLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F788B102068F21C00BD2599 /* ApiURLs.swift */; };
+		2F78A67D208F323F00B7299C /* FileManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78A67C208F323F00B7299C /* FileManagerViewController.swift */; };
+		2F98DB4F20AE9F8700904FD5 /* TempppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F98DB4E20AE9F8700904FD5 /* TempppViewController.swift */; };
+		2F9A062E2084A50B0080697F /* client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2F9A062D2084A50B0080697F /* client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist */; };
+		2F9A06312084C52E0080697F /* FirstNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9A06302084C52E0080697F /* FirstNavViewController.swift */; };
+		2F9A06332084C5CF0080697F /* SecondNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9A06322084C5CF0080697F /* SecondNavViewController.swift */; };
+		2FD5DBF3206A3E7200B4733F /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD5DBF2206A3E7200B4733F /* DataModel.swift */; };
+		2FF7B65220B3DE340048C886 /* StackQATestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7B65120B3DE340048C886 /* StackQATestViewController.swift */; };
+		2FF7B65420B3DE500048C886 /* SecViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7B65320B3DE500048C886 /* SecViewController.swift */; };
+		2FF7B65720B3DFA50048C886 /* ListsHeaderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7B65520B3DFA50048C886 /* ListsHeaderTableViewCell.swift */; };
+		2FF7B65820B3DFA50048C886 /* ListsHeaderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7B65620B3DFA50048C886 /* ListsHeaderTableViewCell.xib */; };
+		2FF7B65B20B3E2DB0048C886 /* SecondTestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF7B65920B3E2DB0048C886 /* SecondTestTableViewCell.swift */; };
+		2FF7B65C20B3E2DB0048C886 /* SecondTestTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF7B65A20B3E2DB0048C886 /* SecondTestTableViewCell.xib */; };
+		CEE4176FD305E9B18E63F03A /* Pods_AkashGithubTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0CB0C33BE91757B0D0EEDDB /* Pods_AkashGithubTestTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0420E76F74D683665C7E7D4C /* Pods-AkashGithubTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkashGithubTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AkashGithubTest/Pods-AkashGithubTest.debug.xcconfig"; sourceTree = "<group>"; };
+		209385CDE05CBBE9023B6D0E /* Pods-AkashGithubTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkashGithubTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AkashGithubTest/Pods-AkashGithubTest.release.xcconfig"; sourceTree = "<group>"; };
+		2D5A2D4259749D2A4DFA488B /* Pods-AkashGithubTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkashGithubTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AkashGithubTestTests/Pods-AkashGithubTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2F2BD75B20660BBA00874ABA /* AkashGithubTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AkashGithubTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F2BD75E20660BBA00874ABA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F2BD76320660BBA00874ABA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,6 +64,30 @@
 		2F2BD77620660BBB00874ABA /* AkashGithubTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AkashGithubTestTests.swift; sourceTree = "<group>"; };
 		2F2BD77820660BBB00874ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F2BD7812066106300874ABA /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FirstViewController.swift; path = ../FirstViewController.swift; sourceTree = "<group>"; };
+		2F68378C207F1778004BDDA0 /* DownloadViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		2F68378D207F1778004BDDA0 /* DownloadViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DownloadViewController.xib; sourceTree = "<group>"; };
+		2F683790207F274A004BDDA0 /* DownloadTaskInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadTaskInfo.swift; sourceTree = "<group>"; };
+		2F683792207F3A0A004BDDA0 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		2F683793207F3A0A004BDDA0 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		2F6E12FC20807B4800F37D36 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		2F6E12FD20807B4800F37D36 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		2F788B0D2068F1DA00BD2599 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ApiService.swift; path = ../ApiService.swift; sourceTree = "<group>"; };
+		2F788B102068F21C00BD2599 /* ApiURLs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiURLs.swift; sourceTree = "<group>"; };
+		2F78A67C208F323F00B7299C /* FileManagerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileManagerViewController.swift; sourceTree = "<group>"; };
+		2F98DB4E20AE9F8700904FD5 /* TempppViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempppViewController.swift; sourceTree = "<group>"; };
+		2F9A062D2084A50B0080697F /* client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist"; path = "../client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		2F9A06302084C52E0080697F /* FirstNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstNavViewController.swift; sourceTree = "<group>"; };
+		2F9A06322084C5CF0080697F /* SecondNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondNavViewController.swift; sourceTree = "<group>"; };
+		2FD5DBF2206A3E7200B4733F /* DataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		2FF7B65120B3DE340048C886 /* StackQATestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StackQATestViewController.swift; path = ../../../../../Projects/StackQATestViewController.swift; sourceTree = "<group>"; };
+		2FF7B65320B3DE500048C886 /* SecViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecViewController.swift; sourceTree = "<group>"; };
+		2FF7B65520B3DFA50048C886 /* ListsHeaderTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListsHeaderTableViewCell.swift; sourceTree = "<group>"; };
+		2FF7B65620B3DFA50048C886 /* ListsHeaderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListsHeaderTableViewCell.xib; sourceTree = "<group>"; };
+		2FF7B65920B3E2DB0048C886 /* SecondTestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondTestTableViewCell.swift; sourceTree = "<group>"; };
+		2FF7B65A20B3E2DB0048C886 /* SecondTestTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondTestTableViewCell.xib; sourceTree = "<group>"; };
+		719EBBCD596E289377A40A16 /* Pods-AkashGithubTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AkashGithubTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AkashGithubTestTests/Pods-AkashGithubTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8237E68EC379AA31967A903C /* Pods_AkashGithubTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkashGithubTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0CB0C33BE91757B0D0EEDDB /* Pods_AkashGithubTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AkashGithubTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F1ED3A26E471CCD51DC608B /* Pods_AkashGithubTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEE4176FD305E9B18E63F03A /* Pods_AkashGithubTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +116,8 @@
 				2F2BD75D20660BBA00874ABA /* AkashGithubTest */,
 				2F2BD77520660BBB00874ABA /* AkashGithubTestTests */,
 				2F2BD75C20660BBA00874ABA /* Products */,
+				5BD2AD9406BB86F20E77003D /* Pods */,
+				B8DC21EBAA475E640F05DEE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,9 +133,17 @@
 		2F2BD75D20660BBA00874ABA /* AkashGithubTest */ = {
 			isa = PBXGroup;
 			children = (
-				2F2BD75E20660BBA00874ABA /* AppDelegate.swift */,
-				2F2BD7812066106300874ABA /* FirstViewController.swift */,
 				2F2BD76220660BBA00874ABA /* Main.storyboard */,
+				2FF7B65020B3DD1A0048C886 /* StackOver Question Test */,
+				2F2BD75E20660BBA00874ABA /* AppDelegate.swift */,
+				2F9A062F2084C4FD0080697F /* navigation method test */,
+				2F9A062D2084A50B0080697F /* client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist */,
+				2FD5DBF1206A3E2F00B4733F /* Model */,
+				2F788B0F2068F1EF00BD2599 /* Api Service */,
+				2F2BD7812066106300874ABA /* FirstViewController.swift */,
+				2F6E12F920807ACA00F37D36 /* Download View */,
+				2F78A67C208F323F00B7299C /* FileManagerViewController.swift */,
+				2F6E12FB20807B0B00F37D36 /* Second View */,
 				2F2BD76820660BBB00874ABA /* Assets.xcassets */,
 				2F2BD76A20660BBB00874ABA /* LaunchScreen.storyboard */,
 				2F2BD76D20660BBB00874ABA /* Info.plist */,
@@ -99,6 +161,95 @@
 			path = AkashGithubTestTests;
 			sourceTree = "<group>";
 		};
+		2F6E12F920807ACA00F37D36 /* Download View */ = {
+			isa = PBXGroup;
+			children = (
+				2F6E12FA20807AEB00F37D36 /* Custom cell */,
+				2F683790207F274A004BDDA0 /* DownloadTaskInfo.swift */,
+				2F68378C207F1778004BDDA0 /* DownloadViewController.swift */,
+				2F68378D207F1778004BDDA0 /* DownloadViewController.xib */,
+			);
+			name = "Download View";
+			sourceTree = "<group>";
+		};
+		2F6E12FA20807AEB00F37D36 /* Custom cell */ = {
+			isa = PBXGroup;
+			children = (
+				2F683792207F3A0A004BDDA0 /* CustomTableViewCell.swift */,
+				2F683793207F3A0A004BDDA0 /* CustomTableViewCell.xib */,
+			);
+			name = "Custom cell";
+			sourceTree = "<group>";
+		};
+		2F6E12FB20807B0B00F37D36 /* Second View */ = {
+			isa = PBXGroup;
+			children = (
+				2F6E12FC20807B4800F37D36 /* SecondViewController.swift */,
+				2F6E12FD20807B4800F37D36 /* SecondViewController.xib */,
+			);
+			name = "Second View";
+			sourceTree = "<group>";
+		};
+		2F788B0F2068F1EF00BD2599 /* Api Service */ = {
+			isa = PBXGroup;
+			children = (
+				2F788B102068F21C00BD2599 /* ApiURLs.swift */,
+				2F788B0D2068F1DA00BD2599 /* ApiService.swift */,
+			);
+			name = "Api Service";
+			sourceTree = "<group>";
+		};
+		2F9A062F2084C4FD0080697F /* navigation method test */ = {
+			isa = PBXGroup;
+			children = (
+				2F9A06302084C52E0080697F /* FirstNavViewController.swift */,
+				2F9A06322084C5CF0080697F /* SecondNavViewController.swift */,
+			);
+			name = "navigation method test";
+			sourceTree = "<group>";
+		};
+		2FD5DBF1206A3E2F00B4733F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2FD5DBF2206A3E7200B4733F /* DataModel.swift */,
+				2F98DB4E20AE9F8700904FD5 /* TempppViewController.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2FF7B65020B3DD1A0048C886 /* StackOver Question Test */ = {
+			isa = PBXGroup;
+			children = (
+				2FF7B65120B3DE340048C886 /* StackQATestViewController.swift */,
+				2FF7B65920B3E2DB0048C886 /* SecondTestTableViewCell.swift */,
+				2FF7B65A20B3E2DB0048C886 /* SecondTestTableViewCell.xib */,
+				2FF7B65320B3DE500048C886 /* SecViewController.swift */,
+				2FF7B65520B3DFA50048C886 /* ListsHeaderTableViewCell.swift */,
+				2FF7B65620B3DFA50048C886 /* ListsHeaderTableViewCell.xib */,
+			);
+			name = "StackOver Question Test";
+			sourceTree = "<group>";
+		};
+		5BD2AD9406BB86F20E77003D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0420E76F74D683665C7E7D4C /* Pods-AkashGithubTest.debug.xcconfig */,
+				209385CDE05CBBE9023B6D0E /* Pods-AkashGithubTest.release.xcconfig */,
+				2D5A2D4259749D2A4DFA488B /* Pods-AkashGithubTestTests.debug.xcconfig */,
+				719EBBCD596E289377A40A16 /* Pods-AkashGithubTestTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B8DC21EBAA475E640F05DEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8237E68EC379AA31967A903C /* Pods_AkashGithubTest.framework */,
+				B0CB0C33BE91757B0D0EEDDB /* Pods_AkashGithubTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +257,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F2BD77B20660BBB00874ABA /* Build configuration list for PBXNativeTarget "AkashGithubTest" */;
 			buildPhases = (
+				D59DADCE803ABD9F66B6474A /* [CP] Check Pods Manifest.lock */,
 				2F2BD75720660BBA00874ABA /* Sources */,
 				2F2BD75820660BBA00874ABA /* Frameworks */,
 				2F2BD75920660BBA00874ABA /* Resources */,
+				F9F92A35EB7C927A1DA7CEEF /* [CP] Embed Pods Frameworks */,
+				F4DC32C7F36885CD202672D6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,9 +277,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F2BD77E20660BBB00874ABA /* Build configuration list for PBXNativeTarget "AkashGithubTestTests" */;
 			buildPhases = (
+				40B16CC6E0E05227E723D65F /* [CP] Check Pods Manifest.lock */,
 				2F2BD76E20660BBB00874ABA /* Sources */,
 				2F2BD76F20660BBB00874ABA /* Frameworks */,
 				2F2BD77020660BBB00874ABA /* Resources */,
+				3CFD01109F53BA2D606CD07C /* [CP] Embed Pods Frameworks */,
+				E0F8E30213D3BCB5E0D46101 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +308,11 @@
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = X6GLMC886Y;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					2F2BD77120660BBB00874ABA = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -184,9 +346,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF7B65820B3DFA50048C886 /* ListsHeaderTableViewCell.xib in Resources */,
 				2F2BD76C20660BBB00874ABA /* LaunchScreen.storyboard in Resources */,
 				2F2BD76920660BBB00874ABA /* Assets.xcassets in Resources */,
+				2F6E12FF20807B4800F37D36 /* SecondViewController.xib in Resources */,
+				2F9A062E2084A50B0080697F /* client_930777215913-r4tbag2bcnpt0vico7oauj3baq6s7ve8.apps.googleusercontent.com.plist in Resources */,
+				2F68378F207F1778004BDDA0 /* DownloadViewController.xib in Resources */,
+				2F683795207F3A0A004BDDA0 /* CustomTableViewCell.xib in Resources */,
 				2F2BD76420660BBA00874ABA /* Main.storyboard in Resources */,
+				2FF7B65C20B3E2DB0048C886 /* SecondTestTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,14 +367,122 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3CFD01109F53BA2D606CD07C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AkashGithubTestTests/Pods-AkashGithubTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		40B16CC6E0E05227E723D65F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D59DADCE803ABD9F66B6474A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0F8E30213D3BCB5E0D46101 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AkashGithubTestTests/Pods-AkashGithubTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F4DC32C7F36885CD202672D6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AkashGithubTest/Pods-AkashGithubTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F92A35EB7C927A1DA7CEEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AkashGithubTest/Pods-AkashGithubTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F2BD75720660BBA00874ABA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F683794207F3A0A004BDDA0 /* CustomTableViewCell.swift in Sources */,
+				2FF7B65220B3DE340048C886 /* StackQATestViewController.swift in Sources */,
+				2F683791207F274A004BDDA0 /* DownloadTaskInfo.swift in Sources */,
+				2FF7B65B20B3E2DB0048C886 /* SecondTestTableViewCell.swift in Sources */,
 				2F2BD7822066106300874ABA /* FirstViewController.swift in Sources */,
+				2F788B112068F21C00BD2599 /* ApiURLs.swift in Sources */,
 				2F2BD75F20660BBA00874ABA /* AppDelegate.swift in Sources */,
+				2F68378E207F1778004BDDA0 /* DownloadViewController.swift in Sources */,
+				2F98DB4F20AE9F8700904FD5 /* TempppViewController.swift in Sources */,
+				2F78A67D208F323F00B7299C /* FileManagerViewController.swift in Sources */,
+				2F788B0E2068F1DA00BD2599 /* ApiService.swift in Sources */,
+				2FF7B65720B3DFA50048C886 /* ListsHeaderTableViewCell.swift in Sources */,
 				2F2BD76720660BBB00874ABA /* AkashGithubTest.xcdatamodeld in Sources */,
+				2F9A06332084C5CF0080697F /* SecondNavViewController.swift in Sources */,
+				2FF7B65420B3DE500048C886 /* SecViewController.swift in Sources */,
+				2F6E12FE20807B4800F37D36 /* SecondViewController.swift in Sources */,
+				2FD5DBF3206A3E7200B4733F /* DataModel.swift in Sources */,
+				2F9A06312084C52E0080697F /* FirstNavViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +617,12 @@
 		};
 		2F2BD77C20660BBB00874ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0420E76F74D683665C7E7D4C /* Pods-AkashGithubTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X6GLMC886Y;
 				INFOPLIST_FILE = AkashGithubTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esc.AkashGithubTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -354,10 +632,12 @@
 		};
 		2F2BD77D20660BBB00874ABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209385CDE05CBBE9023B6D0E /* Pods-AkashGithubTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = X6GLMC886Y;
 				INFOPLIST_FILE = AkashGithubTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = esc.AkashGithubTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,6 +647,7 @@
 		};
 		2F2BD77F20660BBB00874ABA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D5A2D4259749D2A4DFA488B /* Pods-AkashGithubTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -382,6 +663,7 @@
 		};
 		2F2BD78020660BBB00874ABA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 719EBBCD596E289377A40A16 /* Pods-AkashGithubTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
